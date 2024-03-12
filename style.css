@@ -114,4 +114,16 @@ li a:active, nav a:active {
     .logo {
         display: none;
     }
+
+    footer nav {
+        display: none;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    .foot-up {
+        
+    }
 }
