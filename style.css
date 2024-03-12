@@ -57,8 +57,9 @@ nav a {
     text-decoration: none;
     background-color: var(--bg-block);
     border-radius: 3px;
-    color: brown;
     padding: 5px 15px;
+    text-wrap: nowrap;
+    color: brown;
 }
 
 ul {
@@ -76,7 +77,7 @@ li a {
     padding: 5px 15px;
     text-wrap: nowrap;
     color: wheat;
-    width: 80px;
+    width: 90px;
     text-decoration: none;
     border-radius: 3px;
 }
@@ -113,6 +114,10 @@ li a:active, nav a:active {
 @media screen and (max-width: 720px) {
     .logo {
         display: none;
+    }
+
+    header {
+        justify-content: center;
     }
 
     footer nav {
