@@ -46,7 +46,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px 10px 20px 40px;
+    padding: 20px;
 }
 
 nav {
@@ -58,6 +58,7 @@ nav a {
     text-decoration: none;
     background-color: var(--bg-block);
     border-radius: 3px;
+    width: max-content;
     padding: 5px 15px;
     text-wrap: nowrap;
     color: brown;
