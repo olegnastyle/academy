@@ -109,3 +109,9 @@ li a:active, nav a:active {
 }
 
 .foot-up {color: wheat;}
+
+@media screen and (max-width: 720px) {
+    .logo {
+        display: none;
+    }
+}
