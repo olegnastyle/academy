@@ -73,3 +73,11 @@ li a:hover, nav a:hover {
     color: wheat;
     text-decoration: none;
 }
+
+.part {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: wheat;
+    padding: 10px 20px;
+}
