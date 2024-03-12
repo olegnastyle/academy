@@ -5,18 +5,24 @@
     transition: all .1s linear;
 }
 
+:root {
+    --bg: aliceblue;
+    --bg-block: wheat;
+    --text: wheat;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: sienna;
+    background-color: var(--bg-block);
 }
 
 html, body {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: var(--bg);
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -49,7 +55,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    background-color: wheat;
+    background-color: var(--bg-block);
     border-radius: 3px;
     color: brown;
     padding: 5px 15px;
@@ -75,7 +81,7 @@ li a {
     border-radius: 3px;
 }
 
-li a:hover, nav a:hover {
+li a:hover, nav a:hover, .foot-up:hover {
     filter: brightness(1.4);
     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
@@ -98,7 +104,7 @@ li a:active, nav a:active {
     flex-direction: column;
     border-radius: 10px;
     gap: 40px;
-    background-color: wheat;
+    background-color: var(--bg-block);
     padding: 10px 20px;
 }
 
