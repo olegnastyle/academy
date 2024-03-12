@@ -8,6 +8,7 @@
 :root {
     --bg: aliceblue;
     --bg-block: burlywood;
+    --bg-dark: brown;
     --text: wheat;
 }
 
@@ -35,7 +36,7 @@ header, footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: brown;
+    background-color: var(--bg-dark);
     color: wheat;
     padding: 20px 40px;
 }
@@ -73,7 +74,7 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    background-color: var(--bg-dark);
     padding: 5px 15px;
     text-wrap: nowrap;
     color: wheat;
