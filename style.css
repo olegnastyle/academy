@@ -121,6 +121,10 @@ li a:active, nav a:active {
         gap: 10px;
     }
 
+    h1 {
+        text-align: center;
+    }
+
     footer nav {
         display: none;
     }
